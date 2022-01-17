@@ -75,7 +75,7 @@ static uint8_t calc_checksum(void *_buf, int size)
 
 int usage(void)
 {
-    fprintf(stderr,"usage: mkbootimg\n"
+    fprintf(stderr,"usage: mkosimage\n"
             "       --cmdline <kernel-commandline>\n"
             "       --bootstub <filename>\n"
             "       --kernel <filename>\n"
