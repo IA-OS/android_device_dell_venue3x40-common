@@ -84,7 +84,7 @@ Flashable images uses a fake MBR containing image parameters.
 +--------------------------------------------------------+
 | console suppression                         | 4        | // 0
 +--------------------------------------------------------+
-| console_dev_type                            | 4        | // 0xff
+| console_dev_type                            | 4        | // 0xff (may be different?)
 +--------------------------------------------------------+
 | reserved_flag_0                             | 4        | // 0x02BD02BD (may be different?)
 +--------------------------------------------------------+
@@ -100,7 +100,7 @@ Flashable images uses a fake MBR containing image parameters.
 +--------------------------------------------------------+
 | padding                                     | 3032     | // page size = 4096
 +--------------------------------------------------------+
-| bootstub                                    | 8192     |
+| bootstub                                    | 8192     | // may be different?
 +--------------------------------------------------------+
 | kernel                                      | n        | // page_size aligned
 +--------------------------------------------------------+
