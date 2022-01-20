@@ -100,7 +100,7 @@ Flashable images uses a fake MBR containing image parameters.
 +--------------------------------------------------------+
 | padding                                     | 3032     | // page size = 4096
 +--------------------------------------------------------+
-| bootstub                                    | 8192     | // 4096 on android 4.3 below
+| bootstub                                    | 8192     | // 4096 on android 4.3 and lower
 +--------------------------------------------------------+
 | kernel                                      | n        | // page_size aligned
 +--------------------------------------------------------+
